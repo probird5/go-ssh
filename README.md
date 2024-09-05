@@ -2,12 +2,14 @@
 
 This is a terminal-based interactive tool built using Go, which allows users to select from a list of servers and establish an SSH connection either in a new `alacritty` terminal window or a new `tmux` tab.
 
+
 ## Features
 
-- Interactive user interface built with [Bubble Tea](https://github.com/charmbracelet/bubbletea).
-- Provides a list of servers to connect via SSH.
-- Prompts the user to choose between opening the SSH session in a new `alacritty` terminal window or a new `tmux` tab.
-- Easy to customize with additional servers.
+- Text-based user interface (TUI) for easy SSH connection management.
+- Stores server details (name, address, description) in a TOML configuration file.
+- Opens SSH connections in a new terminal window (Alacritty).
+- Lightweight and easy to configure.
+
 
 ## Prerequisites
 
